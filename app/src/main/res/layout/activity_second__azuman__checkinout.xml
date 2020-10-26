@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="50"
+    android:background="#C3F0F0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="24"
+        android:background="@drawable/azuman_banner"
+        android:layout_width="wrap_content"
+        android:weightSum="12"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageView_Checkinout_AzumanBack"
+            android:layout_width="90dp"
+            android:layout_height="94dp"
+            android:layout_weight="1"
+
+            android:layout_gravity="center"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_weight="8"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+
+            android:layout_marginBottom="80dp"
+            android:gravity="center"
+            android:lineSpacingExtra="14sp"
+            android:shadowColor="#000000"
+
+            android:shadowDx="20"
+            android:shadowDy="20"
+            android:shadowRadius="5"
+
+            android:text="AZUMAN/ IN OUT"
+            android:textColor="#FDFCFC"
+            android:textSize="55sp"
+
+            />
+
+        <ImageButton
+            android:layout_weight="4"
+            android:id="@+id/imageView_Checkinout_AzumanHome"
+            android:layout_width="50dp"
+            android:layout_height="79dp"
+
+            android:layout_gravity="center"
+            android:background="@null"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/home_run" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="20"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbnt_azuman_Checkinout_Checkinout"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:src="@drawable/azuman_inout" />
+
+            <TextView
+                android:id="@+id/textView_Azuman_Checkinout_Checkinout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="QUI TRÌNH IN/OUT"
+                android:textColor="#482979"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbnt_Azuman_Checkinout_Tinhhuong"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:src="@drawable/azuman_case" />
+
+            <TextView
+                android:id="@+id/textView_Azuman_Checkinout_Tinhhuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TÌNH HUỐNG"
+                android:textColor="#482979"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_gravity="center"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#482979"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

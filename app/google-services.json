@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "365653498271",
+    "firebase_url": "https://education-tool-d28a3.firebaseio.com",
+    "project_id": "education-tool-d28a3",
+    "storage_bucket": "education-tool-d28a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365653498271:android:35d56ebe20df3e55f545aa",
+        "android_client_info": {
+          "package_name": "com.example.azeducationtoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365653498271-clu7876pp98q4lun5spqjgd8jp0cd3rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC_3HkJ2qyGIXgYAlKjhrISuFo-axunts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365653498271-clu7876pp98q4lun5spqjgd8jp0cd3rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="50"
+    android:background="#FFF2A1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="7"
+        android:background="@drawable/restaurent_banner"
+        android:layout_width="wrap_content"
+        android:weightSum="12"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imagebtn_KC_Cooking_Back"
+            android:layout_width="90dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView_KC_Cooking_Title"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="80dp"
+
+            android:layout_weight="8"
+            android:gravity="center"
+            android:lineSpacingExtra="14sp"
+            android:shadowColor="#000000"
+
+            android:shadowDx="20"
+            android:shadowDy="20"
+            android:shadowRadius="5"
+
+            android:text="NHÀ HÀNG"
+            android:textColor="#FDFCFC"
+            android:textSize="70sp" />
+
+        <ImageButton
+            android:layout_weight="4"
+            android:id="@+id/imagebtn_KC_Cooking_Home"
+            android:layout_width="50dp"
+            android:layout_height="79dp"
+
+            android:layout_gravity="center"
+            android:background="@null"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/home_run" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="22"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbnt_KC_Cooking_Tamago"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:src="@drawable/restaurent_cooking_tamago"/>
+
+            <TextView
+                android:id="@+id/textView_KC_Cooking_Tamago"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:text="CÁC MÓN TRỨNG"
+                android:textColor="#482979"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbnt_KC_Cooking_Miso"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/restaurent_cooking_miso"/>
+
+            <TextView
+                android:id="@+id/textView_KC_Cooking_Miso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MISO/ĐỒ KHO"
+                android:textColor="#482979"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbnt_KC_Cooking_Salat"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:src="@drawable/restaurent_cooking_salat"
+                />
+
+            <TextView
+                android:id="@+id/textView_KC_Cooking_Salat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="  SALAT  "
+                android:gravity="center"
+                android:textColor="#482979"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="20"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imgbnt_KC_Cooking_Other"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:src="@drawable/restaurent_cooking_other"/>
+
+            <TextView
+                android:id="@+id/textView_KC_Cooking_Other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:text="MÓN KHÁC"
+                android:textColor="#482979"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:textColor="#482979"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:textColor="#482979"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

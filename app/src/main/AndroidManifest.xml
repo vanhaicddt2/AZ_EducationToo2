@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.azeducationtoo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".Newdesgin2Activity"></activity>
+        <activity android:name=".Massage_Video_List_Activity" />
+        <activity android:name=".Second_Massage_Basic" />
+        <activity android:name=".Second_Massage" />
+        <activity android:name=".Second_Restaurent_Setupset" />
+        <activity android:name=".Second_Restaurent_Cooking" />
+        <activity android:name=".Restaurent_Video_List_Activity" />
+        <activity android:name=".Second_Restaurant_Basic" />
+        <activity android:name=".Second_Restaurant" />
+        <activity android:name=".Second_Housekeeping_Public" />
+        <activity android:name=".Housekeeping_Video_List_Activity" />
+        <activity android:name=".Second_Housekeeping_Basic" />
+        <activity android:name=".Second_Housekeeping" />
+        <activity android:name=".Second_Reception_AzService" />
+        <activity android:name=".Reception_Video_List_Activity" />
+        <activity android:name=".Second_Reception_Checkinout" />
+        <activity android:name=".Second_Azuman_Rotenburo" />
+        <activity android:name=".Second_Azuman_Checkinout" />
+        <activity android:name=".VIdeo_List_Activity" />
+        <activity android:name=".Second_Reception_Basic" />
+        <activity android:name=".Second_Reception" />
+        <activity android:name=".Second_Azuman_Basic" />
+        <activity android:name=".Phay_video" />
+        <activity
+            android:name=".Second_Azuman"
+            android:screenOrientation="sensorLandscape" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
